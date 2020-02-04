@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Project_Binary_Search_Tree
 {
-    class Node
+    public class Node
     {
+         public  int data;
+         public  Node RightChild;
+         public  Node LeftChild; 
+
+        public Node ()
+        {
+
+        }
     }
 }
